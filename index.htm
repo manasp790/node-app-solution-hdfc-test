@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign-Up Page</title>
+  <style type="text/css">
+    body  
+    {  
+        margin: 0;  
+        padding: 0;  
+        background-color:#633ea5;  
+        font-family: 'Arial';  
+    }  
+    .login{  
+            width: 382px;  
+            overflow: hidden;  
+            margin: auto;  
+            margin: 20 0 0 450px;  
+            padding: 80px;  
+            background: #FFFFFF;  
+            border-radius: 15px ;  
+              
+    }  
+    h2{  
+        text-align: center;  
+        color: white;  
+        padding: 20px;  
+    }  
+    label{  
+        color: #000000;  
+        font-size: 17px;  
+    }  
+    button {
+       font-size: 18px;
+       font-weight: bold;
+       background-color: #633ea5;
+       color: white;
+       padding: 14px 20px;
+       margin: 8px 0;
+       border: none;
+       border-radius: 17px; 
+       cursor: pointer;
+       width: 50%;
+       opacity: 0.9;
+    }
+    button:hover {
+       opacity:1;
+    }
+    #name{  
+        width: 300px;  
+        height: 30px;  
+        border: 2px solid 0#00000;  
+        border-radius: 3px;  
+        padding-left: 8px;  
+    }  
+    #email{  
+        width: 300px;  
+        height: 30px;  
+        border: 2px solid 0#00000;  
+        border-radius: 3px;  
+        padding-left: 8px;  
+          
+    }  
+    #log{  
+        width: 300px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 17px;  
+        padding-left: 7px;  
+        color: blue;  
+      
+      
+    }  
+    span{  
+        color: white;  
+        font-size: 17px;  
+    }  
+    a{  
+        float: right;  
+        background-color: grey;  
+    } 
+  </style>
+</head>
+<body>    
+  <h2>Registration Page</h2><br>    
+  <div class="login">    
+    <form id="login" method="get" action="/process_get">    
+        <label><b>Name     
+        </b>    
+        </label>    
+        <input type="text" name="name" id="name" placeholder="Enter Name">    
+        <br><br>    
+        <label><b>Email     
+        </b>    
+        </label>    
+        <input type="text" name="email" id="email" placeholder="Enter Zeta email id" required>    
+        <br><br>    
+        <button type="submit">Register</button>    
+        <br><br><br>  
+        <label><b>Note</b>: Please press the register button only once</label> 
+        <br><br>       
+    </form>     
+  </div>    
+</body>
+</html>
